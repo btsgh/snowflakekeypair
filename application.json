@@ -16,6 +16,10 @@
     {
       "id": "Movies",
       "isDefault": false
+    },
+    {
+      "id": "NEWAPAR2",
+      "isDefault": false
     }
   ]
 }

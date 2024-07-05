@@ -1,0 +1,2 @@
+DELETE FROM PUBLIC.NEWAPAR
+  WHERE DATE_COL = {{data_table.triggeredRow.DATE_COL}};

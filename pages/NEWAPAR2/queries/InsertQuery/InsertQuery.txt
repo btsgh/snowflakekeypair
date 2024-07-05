@@ -1,0 +1,10 @@
+INSERT INTO PUBLIC.NEWAPAR (
+	DATE_COL,
+	VARCHAR_COL,
+	BOOLEAN_COL,
+	INTEGER_COL)
+VALUES (
+	'{{insert_form.formData.DATE_COL}}',
+	'{{insert_form.formData.VARCHAR_COL}}',
+	'{{insert_form.formData.BOOLEAN_COL}}',
+	'{{insert_form.formData.INTEGER_COL}}');
