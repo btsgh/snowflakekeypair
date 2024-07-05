@@ -1,0 +1,5 @@
+UPDATE PUBLIC.NEWAPAR SET
+		VARCHAR_COL = '{{update_form.fieldState.VARCHAR_COL.isVisible ? update_form.formData.VARCHAR_COL : update_form.sourceData.VARCHAR_COL}}',
+		INTEGER_COL = '{{update_form.fieldState.INTEGER_COL.isVisible ? update_form.formData.INTEGER_COL : update_form.sourceData.INTEGER_COL}}',
+    BOOLEAN_COL = '{{update_form.fieldState.BOOLEAN_COL.isVisible ? update_form.formData.BOOLEAN_COL : update_form.sourceData.BOOLEAN_COL}}'
+WHERE DATE_COL = {{data_table.selectedRow.DATE_COL}};
