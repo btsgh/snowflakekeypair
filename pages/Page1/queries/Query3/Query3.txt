@@ -1,0 +1,11 @@
+INSERT INTO public.newapar (
+    integer_col,
+    varchar_col,
+    boolean_col,
+    date_col
+) VALUES (
+    123,
+    'Sample Text',
+    TRUE,
+    '2024-07-04'
+);

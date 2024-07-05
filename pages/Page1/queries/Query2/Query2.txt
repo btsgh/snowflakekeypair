@@ -1,0 +1,4 @@
+CREATE TABLE public.newapar ( integer_col int
+ , varchar_col VARCHAR(255)
+, boolean_col BOOLEAN
+, date_col DATE)
